@@ -1,10 +1,15 @@
-  .floating-menu {
+/* unused colors: #33A1FD (blue), #FDCA40 (yellow), #F79824 (carrot orange) */
+body {
+  background-color: #31393C;
+}
+.floating-menu {
     font-family: sans-serif;
-    background: yellowgreen;
+    background: #2176FF;
     padding: 5px;;
     width: 130px;
     z-index: 100;
     position: fixed;
+    border-radius: 10px;
   }
   .floating-menu a, 
   .floating-menu h3 {
